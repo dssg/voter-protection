@@ -63,7 +63,7 @@
                 <div class="row">
                     <!-- Portfolio Item 1-->
                     <div class="col-md-2 mb-5">
-                        <img style="width:150px;height:140px"src="./images/hl.jpg" alt="" />
+                        <img style="width:110px;height:150px"src="./images/kaila.jpg" alt="" />
                         <p align="center">
                         Kaila Gilbert </br>
                         Carnegie Mellon University
@@ -77,28 +77,28 @@
                         </p>
                     </div>
                     <div class="col-md-2 mb-5">
-                        <img style="width:150px;height:140px"src="./images/hl.jpg" alt="" />
+                        <img style="width:140px;height:140px"src="./images/jessica.jpeg" alt="" />
                         <p align="center">
                         Jessica Toth </br>
                         Carnegie Mellon University
                         </p>
                     </div>
                     <div class="col-md-2 mb-5">
-                        <img style="width:150px;height:140px"src="./images/hl.jpg" alt="" />
+                        <img style="width:160px;height:140px"src="./images/bob.png" alt="" />
                         <p align="center">
                         Bob LaRocca </br>
                         Voter Protection Corps
                         </p>
                     </div>
                     <div class="col-md-2 mb-5">
-                        <img style="width:150px;height:140px"src="./images/hl.jpg" alt="" />
+                        <img style="width:150px;height:150px"src="./images/rayid.jpg" alt="" />
                         <p align="center">
                         Rayid Ghani </br>
                         Carnegie Mellon University
                         </p>
                     </div>
                     <div class="col-md-2 mb-5">
-                        <img style="width:150px;height:140px"src="./images/hl.jpg" alt="" />
+                        <img style="width:150px;height:150px"src="./images/quentin.png" alt="" />
                         <p align="center">
                         Quentin Palfrey </br>
                         Voter Protection Corps
@@ -185,6 +185,7 @@
                     <h4>What is "The Toolkit"?</h4>
                     This toolkit is a collection of interactive dashboards that aggregates and analyzes public data to understand trends and gaps in voter resources within states. The worksheets are published using Tableau Public, indicating that anyone can view or use this information.
                 </div>
+                <p></p>
                 <div class="row">
                     <h4>What data does it use?</h4>
                     Most data comes from the Election Administration Voter Survey Instrument, the American Community Surveys, and the Cooperative Congressional Election Survey from 2016 and 2018.
@@ -196,10 +197,12 @@
                     <li>Poll Worker Recruiting Difficulty</li>
                     </ul>
                 </div>
+                <p></p>
                 <div class="row">
                 <h4>What’s the purpose?</h4>
                 No two counties are alike. This toolkit exists to understand each county’s unique voter characteristics, resources, and gaps. Voter protection organizations can then use this information to more effectively allocate resources and target areas for support or additional interventions.
                 </div>
+                <p></p>
                 <div class="row">
                     <h4>What are these actions I’m seeing?</h4>
                     This version of the toolkit was designed in partnership with the Voter Protection Corp to identify high urgency counties for poll worker recruitment. (Because few poll workers --> long wait times  → suppressive effects). Before doing any analysis, we needed to understand the intervention space: What are all possible actions? For the poll worker recruiting project, the actions were:
@@ -209,21 +212,43 @@
                         <li>Monitor </li>
                     </ul>
                 </div>
+                <p></p>
                 <div class="row">
                     <h4>How did you designate these actions?</h4>
                     Each county received four sub scores in our risk metrics above. Based on each county’s unique performance on these scores (high, medium, or low), we mapped a direct action. Specifically, we populated a decision matrix like this with Voter Protection Corp:
                 </div>
+                <p></p>
                 <div class="row">
                     <h4>What if my organization’s actions are different?</h4>
                     Perfect! This tool is open source, indicating that it can be downloaded, updated, and expanded. If the indicators we have works for you, you can download the data, update the decision matrix with your actions and interventions, and then see your new results. You can also expand these categories with data that’s important to you. The goal of this tool is to be as interactive and customizable as possible. 
                 </div>
-                <h4>Screenshots</h4>
+                <p></p>
                 <div class="row">
-
+                    <h4>What’s included?</h4>
+                    <p>
+                    The current version of the toolkit includes five separate views of our data. These are broken down further below. Something shiuld go here to fix the html format.
+                    <ul>
+                    <li><b>Direct Action Map</b>: View the recommended actions for each county based on the data</li>
+                    <li><b>County Metrics</b>: See how each county ranks in percentiles; visualize trends and gaps</li>
+                    <li><b>County Indicators</b>: Drill down to see which indicators drive the overall risk metric score</li>
+                    <li><b>Risk Metrics Heat Map</b>: View and sort county rankings based on a single metric</li>
+                    <li><b>Risk Indicator Heat Map</b>: View and sort county rankings based on all available data</li>
+                    </ul>
+                    </p>
                 </div>
-                <h4>Video</h4>
+                <p></p>
                 <div class="row">
-
+                    <h4>What do each of these pages show?</h4>
+                    <p>
+                    We provide a detailed explanation for each of the views included in the toolkit here: <a href="http://bit.ly/vpt-guide">User Guide</a>. Additionally, we provide some screenshots of how each of the pages look below. A detailed explanation of how this toolkit is provided in the detailed report.
+                    </p>
+                </div>
+                <p></p>
+                <div class="row">
+                    <h4>Screenshots</h4>
+                </div>
+                <div class="row">
+                    <h4>Video</h4>
                 </div>
             </div>
         </section>
@@ -233,6 +258,54 @@
                 <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">How We Built</h2>
                 <div class="row">
                     <h4>Data Sources</h4>
+                    <p>
+                    <table id="tablePreview" class="table table-striped table-sm">
+<!--Table head-->
+  <thead>
+    <tr>
+      <th>Data Source</th>
+      <th>Description</th>
+      <th>Year</th>
+      <th>Data</th>
+    </tr>
+  </thead>
+  <!--Table head-->
+  <!--Table body-->
+  <tbody>
+    <tr>
+      <th scope="row">
+Election Administration and Voting Survey (EAVS)
+</th>
+      <td>
+Provides county-level election data about the resources, local characteristics, and infrastructure for U.S. elections.
+</td>
+      <td>2016</td>
+      <td>Link</td>
+    </tr>
+        <tr>
+      <th scope="row">
+        The Cooperative Congressional Election Study (CCES)
+            </th>
+      <td>
+        Provides information about political attitudes and voter election experience
+            </td>
+      <td>2016</td>
+      <td>Link</td>
+    </tr>
+        <tr>
+      <th scope="row">
+        American Community Surveys (ACS)
+            </th>
+      <td>
+        Provides community characteristics of U.S. residents.
+            </td>
+      <td>2018</td>
+      <td>Link</td>
+    </tr>    
+  </tbody>
+  <!--Table body-->
+</table>
+</p>
                 </div>
                 <div class="row">
                     <h4>Analysis</h4>
