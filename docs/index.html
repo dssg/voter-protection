@@ -115,7 +115,7 @@
                 <div class="row">
                     <div class="col-md-3 col-lg-3 mb-5">
                         <p align="center">
-                            <a href="https://public.tableau.com/profile/cmuvoter#!/vizhome/pollworker-vpc_all/Indicators">
+                            <a href="https://public.tableau.com/profile/cmuvoter#!/vizhome/pollworker-vpc_all/Cover">
                             <img class="img-fluid" src="./images/toolkit.png">
                             </br>
                             <h4 style="text-align:center">Live Toolkit</h4>
@@ -260,61 +260,159 @@
                     <h4>Data Sources</h4>
                     <p>
                     <table id="tablePreview" class="table table-striped table-sm">
-<!--Table head-->
-  <thead>
-    <tr>
-      <th>Data Source</th>
-      <th>Description</th>
-      <th>Year</th>
-      <th>Data</th>
-    </tr>
-  </thead>
-  <!--Table head-->
-  <!--Table body-->
-  <tbody>
-    <tr>
-      <th scope="row">
-Election Administration and Voting Survey (EAVS)
-</th>
-      <td>
-Provides county-level election data about the resources, local characteristics, and infrastructure for U.S. elections.
-</td>
-      <td>2016</td>
-      <td>Link</td>
-    </tr>
-        <tr>
-      <th scope="row">
-        The Cooperative Congressional Election Study (CCES)
-            </th>
-      <td>
-        Provides information about political attitudes and voter election experience
-            </td>
-      <td>2016</td>
-      <td>Link</td>
-    </tr>
-        <tr>
-      <th scope="row">
-        American Community Surveys (ACS)
-            </th>
-      <td>
-        Provides community characteristics of U.S. residents.
-            </td>
-      <td>2018</td>
-      <td>Link</td>
-    </tr>    
-  </tbody>
-  <!--Table body-->
-</table>
-</p>
+                    <!--Table head-->
+                        <thead>
+                            <tr>
+                                <th>Data Source</th>
+                                <th>Description</th>
+                                <th>Year</th>
+                                <th>Data</th>
+                            </tr>
+                        </thead>
+                    <!--Table head-->
+                    <!--Table body-->
+                    <tbody>
+                        <tr>
+                            <th scope="row">
+                                Election Administration and Voting Survey (EAVS)
+                            </th>
+                            <td>
+                                Provides county-level election data about the resources, local characteristics, and infrastructure for U.S. elections.
+                            </td>
+                            <td>2016</td>
+                            <td>Link</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                The Cooperative Congressional Election Study (CCES)
+                            </th>
+                            <td>
+                                Provides information about political attitudes and voter election experience
+                            </td>
+                            <td>2016</td>
+                            <td>Link</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                American Community Surveys (ACS)
+                                </th>
+                                <td>
+                                Provides community characteristics of U.S. residents.
+                                </td>
+                                <td>2018</td>
+                                <td>Link</td>
+                            </tr>    
+                    </tbody>
+                    <!--Table body-->
+                    </table>
+                    </p>
+                </div>
+                <p></p>
+                <div class="row">
+                <h4>Analysis</h4>
                 </div>
                 <div class="row">
-                    <h4>Analysis</h4>
+                    
+                    <b>Creating the Tool: An Action-Focused Approach</b>
+                    
+                    All steps of the current analysis lead to a direct action for each county based on that county’s unique voter characteristics. We considered three immediate actions to be used to guide poll worker recruitment in each county: Recruit Immediately, Recruit, Monitor. With these actions in mind, we aggregated data in a way that can qualify voter resources in each county to address potential gaps in poll worker needs. While poll worker recruitment will be essential for nearly every county in the upcoming general election, decision makers with finite resources must prioritize first where to take action.
+                </div>
+                <p></p>
+                <div class="row">
+                    <b>The Indicators: Voter Data Across Four Key Metrics</b>
+                    We selected risk indicators based on qualitative means (research and domain experience), technical means (analysis of correlation and regression models), and data availability (access and completion). We organized the risk indicators into four overarching metrics that address a unique attribute of the voter resources.
+
+                    <p></p>
+                    <!--Table-->
+                    <table id="tablePreview" class="table">
+                    <!--Table head-->
+                    <thead>
+                        <tr>
+                            <th>Metric</th>
+                            <th>Indicator</th>
+                            <th>Definition (County Level)</th>
+                            <th>Data Sources</th>
+                        </tr>
+                    </thead>
+                    <!--Table head-->
+                    <!--Table body-->
+                    <tbody>
+                    <tr>
+                        <td rowspan="2">Demand Risk</td>
+                        <td>In-Person Voters</td>
+                        <td>Number of persons who vote in-person</td>
+                        <td>EAVS</td>
+                    </tr>
+                    <tr>
+                        <td>Inactive Voters</td>
+                        <td>Number of inactive voters (who would need to go in person to reactivate their registration)</td>
+                        <td>EAVS</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="4">Resource Supply Risk</td>
+                        <td>Voters per Location</td>
+                        <td>Number of voters per polling  location</td>
+                        <td>EAVS</td>
+                    </tr>
+                    <tr>
+                        <td>Voters per Machine</td>
+                        <td>Number of voters per voting machine</td>
+                        <td>EAVS</td>
+                    </tr>
+                    <tr>
+                        <td>Voters per Poll-worker</td>
+                        <td>Number of voters assigned per poll-worker</td>
+                        <td>EAVS</td>
+                    </tr>
+                    <tr>
+                        <td>Wait Times</td>
+                        <td>Time waited to cast the vote</td>
+                        <td>CCES Survey Data</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Priority Population Risk</td>
+                        <td>Black and Latino Population</td>
+                        <td>Number of Black and/or Latino voters</td>
+                        <td>Census</td>
+                    </tr>
+                    <tr>
+                        <td>Senior Citizens</td>
+                        <td>Number of senior citizen voters (60+)</td>
+                        <td>Census</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Poll Worker Recruiting Risk</td>
+                        <td>Recruiting Difficulty</td>
+                        <td>Difficulty in Recruiting (1 to 5)</td>
+                        <td>EAVS</td>
+                    </tr>
+                    <tr>
+                        <td>Senior Poll Workers</td>
+                        <td>Number of Poll-workers who were seniors (60+)</td>
+                        <td>EAVS</td>
+                    </tr>
+                    </tbody>
+                    <!--Table body-->
+                </table>
+                <!--Table-->
                 </div>
                 <div class="row">
                     <h4>Output</h4>
                 </div>
                 
                 <div class="row">
+                    <b>How We Scored?</b>
+                    For each indicator, all counties were ranked in comparison to their peers using percentiles. For the key risk metrics, we explored several aggregation techniques (e.g. rule-based, median, min, and max) to combine inputs into a single score. Based on correlation of values, median is used for toolkit display purposes. These scores were then designated as “high”, “medium” and “low” based on the top, medium, and bottom quartiles, respectively.
+                </div>
+                <p></p>
+                <div class="row">
+                    <b>What does this tool enable?</b>
+                    While created specifically to aid in the targeting of poll worker recruitment, we designed the voter risk assessment tool to host a flexible, interactive, and transparent view of U.S. voter data. This view enables several possible actions to improve the voter experience based on tailored information on a county’s existing voter resources. We hope this enables further voter protection work in the upcoming election.
+                </div>
+                <p></p>
+                <div class="row">
+                    <b>Some Insights from Analysis</b>
+                    In general, larger population centers scored higher on demand and priority population risk. This is intuitive, since these metrics relate closely to raw numbers of voters. Yet, for many counties, high demand risk did not necessarily indicate high supply and recruiting risk. Of all counties with high demand risk, only 21% also had a high supply risk. For these high demand and high supply counties, however,  this indicates a potentially large negative impact on a large number of voters. The analysis demonstrates the importance of  allocating resources based on a tailored view of each county’s unique voter characteristics.
                 </div>
             </div>
         </section>
