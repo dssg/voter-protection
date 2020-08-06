@@ -40,6 +40,7 @@ Sheets Included:
   * Next update loosely scheduled for August 14th.
   
 * ***"Show me the data."***
+
 You got it. The toolkit itself can be directly downloaded from the Toolkit link.
 
 
