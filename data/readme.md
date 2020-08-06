@@ -5,8 +5,8 @@ Sheets Included:
 
 * Methodology
 * Data with Headers
-* Data with No Headers ( DEFAULT for Tableau)
-* VPC Actions and Urgency
+* Data with No Headers (DEFAULT for Tableau)
+* Actions and Urgency
 * NA Summary
 
 
@@ -14,7 +14,7 @@ Sheets Included:
 
 * Do you like our data, but have different actions? :
   * Navigate to  the Actions and Urgency Sheet
-  * Update the Decision Matrix basedon your interventions 
+  * Update the Decision Matrix based on your interventions 
   * VLOOKUP will automatically populate the  recommended actions based on your entries
 
 * Interested in other county data? 
