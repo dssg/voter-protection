@@ -24,8 +24,8 @@ Sheets Included:
   * Scroll to far right of sheet to see if any of the additional data suits you:
     * "Additional Context" section includes more voter, demographic, and county data which is available for plug-and-play
     * Can also join data to this file using five-digit FIPS Code
-  * Substitute columns when needed, change metrics of interest, and adjust formulas if needed to account for new categories
-  * In Tableau, change the variables referenced in each sheet accordingly
+  * Substitute columns if desired, change metrics of interest, and adjust formulas if needed to account for new categories
+  * In Tableau, change the variables selected in each sheet accordingly
 
 * "My data is at precinct level/ I have better data than you."
   * Reference the Python script to use, change, and modify what we have to suit your needs. 
