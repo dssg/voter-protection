@@ -9,7 +9,7 @@ Sheets Included:
 * Data with Headers: Data with Helpful headers
 * Data with No Headers (DEFAULT for Tableau)
 * Actions and Urgency: Decision Matrix for recommended action
-* All States Risk Data: Extended, raw data for 41 states 
+* All States Risk Data: Extended, raw data for 42 states (to be expanded at later update)
 * NA Summary
 
 
