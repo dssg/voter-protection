@@ -35,10 +35,6 @@ Sheets Included:
 
 | Data Source | Description | Years | Link
 | --- | --- | --- | --- |
-
-
-Election Administration and Voting Survey (EAVS) | Provides county-level election data about the resources, local characteristics, and infrastructure for U.S. elections. | 2016 | https://www.eac.gov/research-and-data/datasets-codebooks-and-surveys |
-
-The Cooperative Congressional Election Study (CCES) | Provides information about political attitudes and voter election experience | 2016 | https://cces.gov.harvard.edu/data |
-
-American Community Surveys (ACS) | Provides community characteristics of U.S. residents. | 2018 |  https://www.census.gov/
+| Election Administration and Voting Survey (EAVS) | Provides county-level election data about the resources, local characteristics, and infrastructure for U.S. elections. | 2016 | https://www.eac.gov/research-and-data/datasets-codebooks-and-surveys |
+| The Cooperative Congressional Election Study (CCES) | Provides information about political attitudes and voter election experience | 2016 | https://cces.gov.harvard.edu/data 
+| American Community Surveys (ACS) | Provides community characteristics of U.S. residents. | 2018 |  https://www.census.gov/
