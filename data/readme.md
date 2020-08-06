@@ -15,32 +15,32 @@ Sheets Included:
 
 ## How Can I Modify This?
 
-* *Do you like our data, but have different actions?* 
+* ***Do you like our data, but have different actions?***
   * Navigate to  the Actions and Urgency Sheet
   * Update the Decision Matrix based on your interventions 
   * VLOOKUP will automatically populate the  recommended actions based on your entries
 
-* *Interested in other county data?*
+* ***Interested in other county data?*
   * Scroll to far right of sheet to see if any of the additional data suits you:
     * "Additional Context" section includes more voter, demographic, and county data which is available for plug-and-play
     * Can also join data to this file using five-digit FIPS Code
   * Substitute columns if desired, change metrics of interest, and adjust formulas if needed to account for new categories
   * In Tableau, change the variables selected in each sheet accordingly
 
-* *"My data is at precinct level  /  I have better data than you."*
+* ***"My data is at precinct level  /  I have better data than you."*
   * Reference the Python script to use, change, and modify what we have to suit your needs. 
   * Fuller FIPS Code data also available
   * Amend the keep_vars list at the end of the markdown to change what columns are ultimately selected
   
 
-* *"Excel formulas irk me. I would rather generate these entire csvs using Python scripts."*
+* ***"Excel formulas irk me. I would rather generate these entire csvs using Python scripts."*
   * Full processing script will be shared for easier plug-and-play on August 14th.
 
-* *"When can we expect the template for  all states?"
+* ***"When can we expect the template for  all states?"
   * Next update loosely scheduled for August 14th.
   
-* *"Show me the data."*
-  * You got it. The toolkit itself can be directly downloaded from the Toolkit link.
+* ***"Show me the data."*
+You got it. The toolkit itself can be directly downloaded from the Toolkit link.
 
 
 | Data Source | Description | Years | Link
