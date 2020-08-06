@@ -28,3 +28,17 @@ Sheets Included:
 * "My data is at precinct level/ I have better data than you."
  * Reference the Python script to use, change, and modify what we have to suit your needs. 
  * By August 15th, full processing script will be shared to the toolkit for easier plug-and-play
+
+* "Just show me the data."
+
+
+
+| Data Source | Description | Years | Link
+| --- | --- | --- | --- |
+
+
+Election Administration and Voting Survey (EAVS) | Provides county-level election data about the resources, local characteristics, and infrastructure for U.S. elections. | 2016 | https://www.eac.gov/research-and-data/datasets-codebooks-and-surveys |
+
+The Cooperative Congressional Election Study (CCES) | Provides information about political attitudes and voter election experience | 2016 | https://cces.gov.harvard.edu/data |
+
+American Community Surveys (ACS) | Provides community characteristics of U.S. residents. | 2018 |  https://www.census.gov/
