@@ -27,13 +27,16 @@ Sheets Included:
   * Substitute columns if desired, change metrics of interest, and adjust formulas if needed to account for new categories
   * In Tableau, change the variables selected in each sheet accordingly
 
-* *"My data is at precinct level / I have better data than you."*
+* *"My data is at precinct level  /  I have better data than you."*
   * Reference the Python script to use, change, and modify what we have to suit your needs. 
   
 
 * *"Excel formulas irk me. I would rather generate these entire csvs using Python scripts."*
-  * By August 15th, full processing script will be shared for easier plug-and-play.
+  * Full processing script will be shared for easier plug-and-play on August 14th.
 
+* *"When can we expect the template for  all states?"
+  * Next update loosely scheduled for August 14th.
+  
 * *"Show me the data."*
   * You got it. The toolkit itself can be directly downloaded from the Toolkit link.
 
