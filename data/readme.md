@@ -29,6 +29,7 @@ Sheets Included:
 
 * *"My data is at precinct level  /  I have better data than you."*
   * Reference the Python script to use, change, and modify what we have to suit your needs. 
+  * Fuller FIPS Code data also available. Amend the keep_vars list at the end to change what is visible.
   
 
 * *"Excel formulas irk me. I would rather generate these entire csvs using Python scripts."*
