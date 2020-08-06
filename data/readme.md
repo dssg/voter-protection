@@ -31,7 +31,8 @@ Sheets Included:
   * Reference the Python script to use, change, and modify what we have to suit your needs. 
   * By August 15th, full processing script will be shared to the toolkit for easier plug-and-play
 
-
+* *"Excel irks me. I would rather generate these entire csvs using Python scripts."*
+  * Script coming soon with later update.
 
 * *"Just show me the data."*
   * The toolkit can be directly downloaded from the Toolkit link.
