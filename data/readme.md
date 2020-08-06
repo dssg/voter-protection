@@ -13,7 +13,7 @@ Sheets Included:
 
 ## How Can I Modify This?
 
-* Do you like our data, but have different actions? :
+* Do you like our data, but have different actions? 
   * Navigate to  the Actions and Urgency Sheet
   * Update the Decision Matrix based on your interventions 
   * VLOOKUP will automatically populate the  recommended actions based on your entries
@@ -26,8 +26,10 @@ Sheets Included:
   * In Tableau, change the variables referenced in each sheet accordingly
 
 * "My data is at precinct level/ I have better data than you."
- * Reference the Python script to use, change, and modify what we have to suit your needs. 
- * By August 15th, full processing script will be shared to the toolkit for easier plug-and-play
+  * Reference the Python script to use, change, and modify what we have to suit your needs. 
+  * By August 15th, full processing script will be shared to the toolkit for easier plug-and-play
+
+
 
 * "Just show me the data."
 
