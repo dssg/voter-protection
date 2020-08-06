@@ -1,5 +1,5 @@
 ## What's In the Folder?
-* (LIVE) Voter Risk Toolkit.xlxs : Main spreadsheet for Excel analysis
+* (LIVE) Voter Risk Toolkit.xlxs : Main spreadsheet for Tableau and Excel analysis
 * risk_processing_public.ipynb: Jupyter markdown that cleans and processes data into single csv with raw data
 * get_census.ipynb: Markdown to retrieve relevant Census data (using the censusdata package)
 
