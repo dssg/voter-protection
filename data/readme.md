@@ -13,9 +13,9 @@ Sheets Included:
 ## How Can I Modify This?
 
 * Like our data, but have different actions? :
-** Navigate to  the Actions and Urgency Sheet
-** Update the Decision Matrix basedon your interventions 
-** VLOOKUP will automatically populate the  recommended actions based on your entries
+  ** Navigate to  the Actions and Urgency Sheet
+  ** Update the Decision Matrix basedon your interventions 
+  ** VLOOKUP will automatically populate the  recommended actions based on your entries
 
 * We want different data, same actions
 ** Scroll to far right of sheet to see if any of the additional data suits you:
