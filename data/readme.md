@@ -21,8 +21,8 @@ Sheets Included:
 * Interested in other county data? 
   * Scroll to far right of sheet to see if any of the additional data suits you:
    * More Voter, Demographic, and County Data is available for plug-and-play
-   * Can also join data to  this file  using five-digit FIPS Coe
-  * Substitute columns when needed, change, Metrics of interest, and adjust formulas  if needed to account for new categories
+   * Can also join data to  this file  using five-digit FIPS Code
+  * Substitute columns when needed, change metrics of interest, and adjust formulas if needed to account for new categories
   * In Tableau, change the variables referenced in each sheet accordingly
 
 * "My data is at precinct level/ I have better data than you."
@@ -32,7 +32,7 @@ Sheets Included:
 
 
 * "Just show me the data."
-
+  * The toolkit can be directly downloaded from the Toolkit link.
 
 
 | Data Source | Description | Years | Link
