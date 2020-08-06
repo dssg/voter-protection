@@ -1,5 +1,7 @@
 ## What's In the Folder?
 * Main Data Source: (LIVE) Voter Risk Toolkit.xlxs
+* risk_processing_public.ipynb: Markdown that combines data into single view
+* get_census.ipynb: Markdown to retrieve relevant Census data (using the censusdata package)
 
 Sheets Included:
 
