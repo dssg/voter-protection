@@ -3,10 +3,11 @@
 
 Sheets Included:
 
-* Methodology
-* Data with Headers
+* Methodology: Details about how the spreadsheet works
+* Data with Headers: Data with Helpful headers
 * Data with No Headers (DEFAULT for Tableau)
-* Actions and Urgency
+* Actions and Urgency: Decision Matrix for recommended action
+* All States Risk Data: Extended, raw data for 41 states 
 * NA Summary
 
 
