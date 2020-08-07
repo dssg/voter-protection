@@ -15,6 +15,7 @@ Sheets Included in the excel spreadsheet:
 
 
 ## How Can I Modify This?
+To use the toolkit in Tableau, edit your Data Connection to link to the downloaded (ANALYSIS) spreadsheet.
 
 * ***Do you like our data, but have different actions?***
   * Navigate to  the Actions and Urgency Sheet
