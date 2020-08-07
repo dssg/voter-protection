@@ -31,3 +31,6 @@ out/
 
 # config yaml files
 .yaml
+
+# data yaml
+./data/Toolkit_Data_Backup.xlsx
