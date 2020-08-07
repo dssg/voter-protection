@@ -1,5 +1,5 @@
 # Voter Resource Prioritization Toolkit
-<img src="https://www.cmu.edu/brand/brand-guidelines/images/wordmarksquare-red-600x600.png" height=150 width=150/> <img src="https://static1.squarespace.com/static/5d4510352755f600012998f7/t/5d81145581e7710a0f506acb/1592578825295/?format=1500w" height=50/>
+<img src="https://www.cmu.edu/brand/brand-guidelines/images/wordmarksquare-red-600x600.png" height=150 width=150/> <img src="https://static1.squarespace.com/static/5d4510352755f600012998f7/t/5d81145581e7710a0f506acb/1592578825295/?format=1500w" height=100 align=middle/>
 
 ## A collaboration between Carnegie Mellon University and Voter Protection Corps
 
