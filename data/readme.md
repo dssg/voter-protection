@@ -42,7 +42,7 @@ Sheets Included in the excel spreadsheet:
   
 * ***"Show me the data."***
 
-You got it. The toolkit itself can be directly downloaded from the Toolkit link.
+[You got it.](https://dssg.github.io/voter-protection/toolkit.html)
 
 
 | Data Source | Description | Years | Link
