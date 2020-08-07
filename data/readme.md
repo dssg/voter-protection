@@ -1,17 +1,17 @@
 ## What's In the Folder?
-* (LIVE) Voter Risk Toolkit.xlsx : Main spreadsheet for Tableau analysis.
+* (LIVE) Voter Risk Toolkit.xlsx : Main spreadsheet that populates the Tableau dashboard.
 * (ANALYSIS) Voter Risk Toolkit.xlsx : Spreadsheet that is downloadable and can be used in Excel for analysis.
-* risk_processing_public.ipynb: Jupyter markdown that cleans and processes data sources into single csv with county as the unit of analysis
-* get_census.ipynb: Markdown to retrieve relevant Census data (using the censusdata package)
+* [risk_processing_public.ipynb](risk_processing_public.ipynb): Jupyter notebook that cleans and processes data sources into single csv with county as the unit of analysis
+* [get_census.ipynb](get_census.ipynb): Jupyter notebook to retrieve relevant Census data (using the censusdata package)
 
-Sheets Included:
+Sheets Included in the excel spreadsheet:
 
 * Methodology: Details about how the spreadsheet works
 * Data with Headers: Data with Helpful headers
 * Data with No Headers (DEFAULT for Tableau)
 * Actions and Urgency: Decision Matrix for recommended action
 * All States Risk Data: Extended, raw data for 42 states (to be expanded at later update)
-* NA Summary
+* NA Summary: Summary of what data is available for each state
 
 
 ## How Can I Modify This?
