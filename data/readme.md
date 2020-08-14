@@ -38,7 +38,7 @@ To use the toolkit in Tableau, edit your Data Connection to link to the download
   * Full processing script will be shared for easier plug-and-play on August 14th.
 
 * ***"When can we expect the template for  all states?"***
-  * Next update scheduled for August 14th.
+  * Next update scheduled for August 17th.
   
 * ***"Show me the data."***
 
