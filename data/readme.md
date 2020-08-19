@@ -37,10 +37,10 @@ To use the toolkit in Tableau, edit your Data Connection to link to the download
   
 
 * ***"Excel formulas irk me. I would rather generate these entire csvs using Python scripts."***
-  * Full processing script will be shared for easier plug-and-play on August 14th.
+  * See the risk_scoring_toolkit markdown 
 
 * ***"When can we expect the template for  all states?"***
-  * Next update scheduled for August 17th.
+  * States to be added:  Alaska, Connecticut, Illinois, Massachussetts, Maine, New Hampshire, Rhode Island,  South Dakota,  and Vermont
   
 * ***"Show me the data."***
 
