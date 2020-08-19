@@ -1,8 +1,8 @@
 ## What's In the Folder?
 
 * [risk_processing_public.ipynb](risk_processing_public.ipynb): Jupyter notebook that cleans and processes data sources into single csv with county as the unit of analysis
-* [get_census.ipynb](get_census.ipynb): Jupyter notebook to retrieve relevant Census data (using the censusdata package)
 * [risk_scoring_for_toolkit.ipynb](risk_scoring_for_toolkit.ipynb): Script to select metrics, indicators, and states to generate scores for Tableau
+* [get_census.ipynb](get_census.ipynb): Jupyter notebook to retrieve relevant Census data (using the censusdata package)
 *  Voter Risk Toolkit.xlsx : Default Excel spreadsheet generated for Voter Protection  Corp (limited changeability).
 
 Sheets Included in the excel spreadsheet:
