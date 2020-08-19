@@ -12,6 +12,7 @@ Sheets Included in the excel spreadsheet:
 * Data with No Headers (DEFAULT for Tableau)
 * Actions and Urgency: Decision Matrix for recommended action
 * All States Risk Data: Extended, raw data for 42 states (to be expanded at later update)
+* All States Processed: Data with scores for all 42 states, including additional percentile columns
 * NA Summary: Summary of what data is available for each state
 
 
