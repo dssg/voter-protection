@@ -16,12 +16,13 @@ Sheets Included in the excel spreadsheet:
 
 
 ## How Can I Modify This?
-To use the toolkit in Tableau, edit your Data Connection to link to the downloaded (ANALYSIS) spreadsheet.
+To use the toolkit in Tableau, edit your Data Connection to link to the downloaded spreadsheet.
 
 * ***Do you like our data, but have different actions?***
   * Navigate to  the Actions and Urgency Sheet
   * Update the Decision Matrix based on your interventions 
-  * VLOOKUP will automatically populate the  recommended actions based on your entries
+  * In spreadsheet, VLOOKUP will automatically populate the  recommended actions based on your entries
+  * In the script, change the matrix, save as a csv, and read in as the actions dataframe
 
 * ***Interested in other county data?***
   * Scroll to far right of sheet to see if any of the additional data suits you:
@@ -32,7 +33,6 @@ To use the toolkit in Tableau, edit your Data Connection to link to the download
 
 * ***"My data is at precinct level  /  I have better data than you."***
   * Reference the Python script to use, change, and modify what we have to suit your needs. 
-  * Fuller FIPS Code data also available
   * Amend the keep_vars list at the end of the markdown to change what columns are ultimately selected
   
 
